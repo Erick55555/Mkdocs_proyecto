@@ -104,8 +104,8 @@ plugins:
       auto_caption: false
       caption_position: bottom
   - mkdocs-versioning:
-      version: 0.4.0
-      exclude_from_nav: ["pdf"]
+      version: 0.5.0
+      exclude_from_nav: ["img","eu","es","en","ca","Keyboard Accessibility Manual","ManualIntrod","ManualGood Practices","QuickGuideManager","QuickGuideEditor"]
   - with-pdf:
       author: Equipo Migración
 
