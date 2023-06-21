@@ -106,7 +106,7 @@ plugins:
       auto_caption: false
       caption_position: bottom
   - mkdocs-versioning:
-      version: 0.1.0
+      version: 0.2.0
       exclude_from_nav: ["pdf"]
   - with-pdf:
       author: Equipo Migración
