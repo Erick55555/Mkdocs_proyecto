@@ -50,8 +50,8 @@ markdown_extensions:
 plugins:
   - search
   - i18n:
-      default_language: !ENV [DEFAULT_LANGUAGE, "en"]
-      default_language_only: !ENV [DEFAULT_LANGUAGE_ONLY, false]
+      default_language: en
+      default_language_only: false
       docs_structure: folder
       languages:
         en:
@@ -106,7 +106,7 @@ plugins:
       auto_caption: false
       caption_position: bottom
   - mkdocs-versioning:
-      version: 0.2.0
+      version: 0.3.0
       exclude_from_nav: ["pdf"]
   - with-pdf:
       author: Equipo Migración
