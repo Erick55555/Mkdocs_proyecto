@@ -51,8 +51,6 @@ plugins:
   - search
   - i18n:
       default_language: en
-      default_language_only: false
-      docs_structure: folder
       languages:
         en:
           name: Englis
@@ -106,7 +104,7 @@ plugins:
       auto_caption: false
       caption_position: bottom
   - mkdocs-versioning:
-      version: 0.3.0
+      version: 0.4.0
       exclude_from_nav: ["pdf"]
   - with-pdf:
       author: Equipo Migración
